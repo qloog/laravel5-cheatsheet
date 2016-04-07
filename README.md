@@ -9,58 +9,22 @@ LTS 版本是此项目能提供的最长时间维护版本。一般的发行版�
 
 ## Artisan
 
-在版本 5.1.11 新添加，见 http://laravel-china.org/docs/5.1/5.1/authorization#creating-policies
+| 命令        							| 说明           | 备注  |
+| ------------- 							|:-------------| -----:|
+| php artisan make:policy PostPolicy | right-aligned | 在版本 5.1.11 新添加|
+| php artisan --help OR -h				| 针对命令显示帮助信息      |   |
+| php artisan --quiet OR -q 			| 抑制输出信息      |     |
+| php artisan --version OR -V 		| 打印 Laravel 的版本信息      |     |
+| php artisan --no-interaction OR -n	| 不询问任何交互性的问题      |     |
+| php artisan --ansi		 			| 强制输出 ANSI 格式      |     |
+| php artisan --no-ansi 				| 禁止输出 ANSI 格式      |     |
+| php artisan --env 					| 显示当前命令行运行的环境      |     |
+| php artisan --verbose 				| `-v|vv|vvv` 通过增加 v 的个数来控制命令行输出内容的详尽情况: 1 个代表正常输出, 2 个代表输出更多消息, 3 个代表调试 |     |
+| php artisan clear-compiled 			| 移除编译优化过的文件 (`storage/frameworks/compiled.php`)      |     |
+| php artisan env 					| 显示当前框架运行的环境      |     |
+| php artisan help 					| 显示某个命令的帮助信息      |     |
+| php artisan list 					| 显示所有可用的命令      |     |
 
-	php artisan make:policy PostPolicy
-	
-针对命令显示帮助信息
-
-	php artisan --help OR -h
-	
-抑制输出信息
-
-	php artisan --quiet OR -q
-	
-打印 Laravel 的版本信息
-
-	php artisan --version OR -V
-	
-不询问任何交互性的问题
-
-	php artisan --no-interaction OR -n
-	
-强制输出 ANSI 格式
-
-	php artisan --ansi
-	
-禁止输出 ANSI 格式
-
-	php artisan --no-ansi
-	
-显示当前命令行运行的环境
-
-	php artisan --env
-	
--v|vv|vvv 通过增加 v 的个数来控制命令行输出内容的详尽情况: 1 个代表正常输出, 2 个代表输出更多消息, 3 个代表调试
-
-	php artisan --verbose
-	
-移除编译优化过的文件 (storage/frameworks/compiled.php)
-
-	php artisan clear-compiled
-	
-显示当前框架运行的环境
-
-	php artisan env
-	
-显示某个命令的帮助信息
-
-	php artisan help
-	
-显示所有可用的命令
-
-	php artisan list
-	
 进入应用交互模式
 
 	php artisan tinker
