@@ -7,7 +7,7 @@ laravel5-cheatsheet
 LTS 版本是此项目能提供的最长时间维护版本。一般的发行版本, 只提供 6 个月的 Bug 修复支持, 一年的安全修复支持.
 
 
-# Artisan
+## Artisan
 
 在版本 5.1.11 新添加，见 http://laravel-china.org/docs/5.1/5.1/authorization#creating-policies
 
@@ -303,7 +303,7 @@ migrations 数据库表信息
 	php artisan vendor:publish [--force] [--provider[="..."]] [--tag[="..."]]
 	php artisan tail [--path[="..."]] [--lines[="..."]] [connection]
 
-# Composer
+## Composer
 
 	composer create-project laravel/laravel folder_name
 	composer install
@@ -312,7 +312,7 @@ migrations 数据库表信息
 	composer self-update
 	composer require [options] [--] [vender/packages]...
 
-# Environment
+## Environment
 
 	$environment = app()->environment();
 	$environment = App::environment();
@@ -326,7 +326,7 @@ migrations 数据库表信息
 
  	if ($app->environment('local', 'staging')){}
 
-# Config
+## Config
 
 	Config::get('app.timezone');
 	
@@ -336,7 +336,7 @@ migrations 数据库表信息
 	Config::set('database.default', 'sqlite');
             
 
-# Route
+## Route
 
 Route::get('foo', function(){});
 Route::get('foo', 'ControllerName@function');
@@ -430,62 +430,62 @@ HTTP 中间件
 
 	Route::group(array('domain' => '{sub}.example.com'), function(){});
 
-# URL
+## URL
 
-# DB
+## DB
 
-# Model
+## Model
 
-# Log
+## Log
 
-# Event 
+## Event 
 
-# File
+## File
 
-# Pagination
+## Pagination
 
-# Lang
+## Lang
 
-# UnitTest
+## UnitTest
 
-# SSH
+## SSH
 
-# Schema
+## Schema
 
-# Input
+## Input
 
-# Cache
+## Cache
 
-# Cookie
+## Cookie
 
-# Session
+## Session
 
-# Request
+## Request
 
-# Response
+## Response
 
-# Redirect
+## Redirect
 
-# Security
+## Security
 
-# Container
+## Container
 
-# Mail
+## Mail
 
-# Auth
+## Auth
 
-# Queue
+## Queue
 
-# Validation 
+## Validation 
 
-# View
+## View
 
-# Blade
+## Blade
 
-# Form
+## Form
 
-# HTML
+## HTML
 
-# String
+## String
 
-# Helper
+## Helper
